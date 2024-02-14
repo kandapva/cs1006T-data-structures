@@ -138,6 +138,9 @@ class DoubleList{
                prev_elem->next = elem->next;
            }
     }
+    void reverse_list(){
+        // Your code goes here
+    }
     // return the list size (N is not modifiable by any other piece of code)
     size_t get_list_size(){return N;};
     ~DoubleList(){
