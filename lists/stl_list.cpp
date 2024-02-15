@@ -24,16 +24,14 @@ int main()
         list1.push_back((i * 2 + 1));
         list2.push_front((i * 3 -2));
     }
-    cout << endl << "List 1 (gqlist1) is : ";
+    cout << endl << "List 1 is : ";
     print_list(list1);
 
-    cout << endl << "List 2 (gqlist1) is : ";   
+    cout << endl << "List 2 is : ";   
     print_list(list2);
  
     cout << "list1.front() : " << list1.front() << endl;
     cout << "list1.back() : " << list1.back() << endl;
- 
-
  
     return 0;
 }
